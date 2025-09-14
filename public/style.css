@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f4ef;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff6ec;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#emoji {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.dashes {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  letter-spacing: 0.2rem;
+}
+
+button {
+  background: #ffb347;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+button:hover {
+  background: #ffa500;
+}
+
+.hint-text {
+  white-space: pre-wrap;
+  text-align: left;
+  background: #fffbe6;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-family: monospace;
+}

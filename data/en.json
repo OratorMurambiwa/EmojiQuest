@@ -1,0 +1,102 @@
+[
+  {
+    "emojis": "🌞➡️🌾⚒️",
+    "answer": "Make hay while the sun shines",
+    "hints": {
+      "en": "Take advantage of good opportunities while they last.",
+      "sn": "Ita chinhu kana nguva iri yakanaka.",
+      "tr": "Güneş parlıyorken saman yap.",
+      "es": "Haz heno mientras brilla el sol."
+    }
+  },
+  {
+    "emojis": "🐦✋=2🌳",
+    "answer": "A bird in the hand is worth two in the bush",
+    "hints": {
+      "en": "What you already have is more valuable than what you hope to get.",
+      "sn": "Zviripo zviri nani kupfuura zvinovimbiswa.",
+      "tr": "Eldeki bir kuş, çalıdaki iki kuştan iyidir.",
+      "es": "Más vale pájaro en mano que ciento volando."
+    }
+  },
+  {
+    "emojis": "🐕😴🚫👋",
+    "answer": "Let sleeping dogs lie",
+    "hints": {
+      "en": "Don’t stir up old troubles.",
+      "sn": "Usamutsire nyaya dzakapera.",
+      "tr": "Uyuyan köpeği uyandırma.",
+      "es": "Deja que los perros dormidos descansen."
+    }
+  },
+  {
+    "emojis": "🐱👜📤",
+    "answer": "Let the cat out of the bag",
+    "hints": {
+      "en": "Reveal a secret by accident.",
+      "sn": "Kuburitsa chakavanzika.",
+      "tr": "Sırrı açığa vurmak.",
+      "es": "Revelar un secreto."
+    }
+  },
+  {
+    "emojis": "🥚➡️🐣➡️🐔🚫🔢",
+    "answer": "Don’t count your chickens before they hatch",
+    "hints": {
+      "en": "Don’t make plans based on assumptions.",
+      "sn": "Usavimba nezvisati zvaitika.",
+      "tr": "Civcivler çıkmadan tavukları sayma.",
+      "es": "No cuentes los pollos antes de nacer."
+    }
+  },
+  {
+    "emojis": "🌉🔥",
+    "answer": "Burn your bridges",
+    "hints": {
+      "en": "Destroy opportunities for going back.",
+      "sn": "Kupisa mikana yekudzokera shure.",
+      "tr": "Köprüleri yakmak.",
+      "es": "Quemar los puentes."
+    }
+  },
+  {
+    "emojis": "🧂➕🗣️",
+    "answer": "Take it with a grain of salt",
+    "hints": {
+      "en": "View something with skepticism.",
+      "sn": "Usatore mashoko ese sezvaari.",
+      "tr": "Bir şeyi şüpheyle karşılamak.",
+      "es": "Tómalo con pinzas."
+    }
+  },
+  {
+    "emojis": "🏠🪞🚫🪨",
+    "answer": "People who live in glass houses shouldn’t throw stones",
+    "hints": {
+      "en": "Don’t criticize others if you have similar faults.",
+      "sn": "Usatuke vamwe kana uinewo mhosva.",
+      "tr": "Camdan evde oturan, taş atmamalı.",
+      "es": "Quien tiene techo de vidrio no debe tirar piedras."
+    }
+  },
+  {
+    "emojis": "🐘🏠👀🚫🗣️",
+    "answer": "The elephant in the room",
+    "hints": {
+      "en": "An obvious problem that people avoid discussing.",
+      "sn": "Dambudziko guru riri pachena rinonyarirwa.",
+      "tr": "Herkesin bildiği ama kimsenin konuşmadığı sorun.",
+      "es": "El elefante en la habitación."
+    }
+  },
+  {
+    "emojis": "⏰🐦➡️🐛",
+    "answer": "The early bird catches the worm",
+    "hints": {
+      "en": "Success comes to those who prepare early.",
+      "sn": "Anomuka mangwanani ndiye anowana mukana.",
+      "tr": "Erken kalkan yol alır.",
+      "es": "Al que madruga, Dios lo ayuda."
+    }
+  }
+]

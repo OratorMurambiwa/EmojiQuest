@@ -1,0 +1,102 @@
+[
+  {
+    "emojis": "👣👨‍👩‍👧➡️👣👶",
+    "answer": "Ka hana a ka mākua, o ka hana no ia a keiki",
+    "hints": {
+      "en": "What parents do, children will follow.",
+      "sn": "Zvinoitwa nevabereki ndizvo zvinoitwa nevana.",
+      "tr": "Ebeveynlerin yaptığını çocuklar da yapar.",
+      "es": "Lo que hacen los padres, los hijos lo harán."
+    }
+  },
+  {
+    "emojis": "⚒️➡️🧠📚",
+    "answer": "Ma ka hana ka ʻike",
+    "hints": {
+      "en": "In working one learns.",
+      "sn": "Pakushanda ndipo panodzidzwa.",
+      "tr": "Çalışarak öğrenilir.",
+      "es": "Trabajando se aprende."
+    }
+  },
+  {
+    "emojis": "🌺🔄🌞❄️❤️",
+    "answer": "E lei kau, e lei ho‘oilo i ke aloha",
+    "hints": {
+      "en": "Love is worn like a wreath through summer and winter.",
+      "sn": "Rudo runopfekedzwa semaruva munguva yechirimo neyechando.",
+      "tr": "Aşk, yaz ve kış boyunca bir çelenk gibi giyilir.",
+      "es": "El amor se lleva como una guirnalda en verano e invierno."
+    }
+  },
+  {
+    "emojis": "🤝⚒️➡️🏆",
+    "answer": "ʻAʻohe hana nui ke alu ‘ia",
+    "hints": {
+      "en": "No task is too big when done together by all.",
+      "sn": "Hapana basa guru kana vanhu vose vachishanda pamwe.",
+      "tr": "Birlikte yapıldığında hiçbir iş büyük değildir.",
+      "es": "Ninguna tarea es demasiado grande si se hace entre todos."
+    }
+  },
+  {
+    "emojis": "🐞➡️😲🤸",
+    "answer": "He liʻiliʻi ka ʻuku lele, naue naʻe kino nui",
+    "hints": {
+      "en": "A flea may be small but it can make a big body squirm.",
+      "sn": "Chipukanana chinogona kuita kuti muviri mukuru uzununguke.",
+      "tr": "Bir pire küçük olabilir ama büyük bir bedeni titretebilir.",
+      "es": "Una pulga puede ser pequeña pero puede hacer retorcer a un gran cuerpo."
+    }
+  },
+  {
+    "emojis": "⚔️↔️🏃💨",
+    "answer": "A‘o i ke koa, e a‘o no i ka holo",
+    "hints": {
+      "en": "When one learns to be a warrior, one must also learn to run.",
+      "sn": "Kana uchidzidzira kuva gamba, dzidzawo kumhanya.",
+      "tr": "Savaşçı olmayı öğrenen, kaçmayı da öğrenmelidir.",
+      "es": "Quien aprende a ser guerrero, también debe aprender a huir."
+    }
+  },
+  {
+    "emojis": "🤲❤️➡️🎁",
+    "answer": "ʻAʻohe hana i nele i ka uku",
+    "hints": {
+      "en": "No deed lacks a reward.",
+      "sn": "Hapana basa rinosara risina mubairo.",
+      "tr": "Hiçbir iş ödülsüz kalmaz.",
+      "es": "Ninguna acción carece de recompensa."
+    }
+  },
+  {
+    "emojis": "❤️🐦🌳🌿",
+    "answer": "He manu ke aloha, ‘a‘ohe lālā kau ‘ole",
+    "hints": {
+      "en": "Love is like a bird — there is no branch it does not perch upon.",
+      "sn": "Rudo rwakaita senhiyo — haripotsere pamuti pasina bazi.",
+      "tr": "Aşk bir kuş gibidir — konmadığı dal yoktur.",
+      "es": "El amor es como un pájaro: no hay rama en la que no se pose."
+    }
+  },
+  {
+    "emojis": "🍚➡️😊💪",
+    "answer": "I ola no ke kino i ka mā’ona o ka ‘ōpū",
+    "hints": {
+      "en": "The body enjoys health when the stomach is well filled.",
+      "sn": "Muviri une utano kana dumbu rizere.",
+      "tr": "Mide dolu olduğunda vücut sağlıklıdır.",
+      "es": "El cuerpo disfruta de salud cuando el estómago está lleno."
+    }
+  },
+  {
+    "emojis": "🏄‍♂️➡️❌💦",
+    "answer": "He kāʻeʻaʻeʻa pulu ʻole no ka heʻenalu",
+    "hints": {
+      "en": "A good surfer will not get wet.",
+      "sn": "Mutambi wakanaka weserfing haanyurwi nemvura.",
+      "tr": "İyi bir sörfçü ıslanmaz.",
+      "es": "Un buen surfista no se moja."
+    }
+  }
+]

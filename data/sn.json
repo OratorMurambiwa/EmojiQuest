@@ -1,0 +1,102 @@
+[
+  {
+    "emojis": "🐥🍽️👩‍🍼",
+    "answer": "Hukwana inodya ndeiri pana mai",
+    "hints": {
+      "en": "The chick that feeds is the one close to its mother (stay close to support).",
+      "haw": "ʻO ka piʻo e hānai ʻia nei ʻo ia ke kokoke i kona makuahine.",
+      "tr": "Beslenen civciv annesinin yanında olandır.",
+      "es": "El polluelo que se alimenta es el que está cerca de su madre."
+    }
+  },
+  {
+    "emojis": "🎃⬇️🥣🚫",
+    "answer": "Mapudzi anowira kusina hari",
+    "hints": {
+      "en": "Fortune favours fools (good things fall where unprepared).",
+      "haw": "Hāʻule nā ʻuala ma kahi ʻaʻohe ipu.",
+      "tr": "Kabak, tenceresi olmayan yere düşer.",
+      "es": "La fortuna favorece a los tontos."
+    }
+  },
+  {
+    "emojis": "🐕🛡️❤️👤",
+    "answer": "Kuchengeta imbwa yomweni kuda mwene wayo",
+    "hints": {
+      "en": "Caring for someone’s dog means you love its owner.",
+      "haw": "Ke mālama nei i ka ʻīlio a kekahi mea ʻē aʻe he aloha ia i kona haku.",
+      "tr": "Birinin köpeğine bakmak, sahibini sevmektir.",
+      "es": "Cuidar al perro de alguien muestra que amas a su dueño."
+    }
+  },
+  {
+    "emojis": "🙅‍♂️🔴➡️⚪",
+    "answer": "Kuramba dzvuku kuona jena",
+    "hints": {
+      "en": "Do not reject something unless you have something better.",
+      "haw": "Mai hōʻole i ka mea ʻula ke loaʻa ʻole ka mea keʻokeʻo.",
+      "tr": "Kırmızıyı reddetmek, beyazı gördüğün anlamına gelir.",
+      "es": "No rechaces algo a menos que tengas algo mejor."
+    }
+  },
+  {
+    "emojis": "🦎☀️👀⛰️",
+    "answer": "Dzvinyu kuzamba zuva huona bako",
+    "hints": {
+      "en": "If you venture into danger, be sure you have a way out.",
+      "haw": "Inā hele ʻoe i ka pilikia, e hōʻoia i kahi ala puka.",
+      "tr": "Tehlikeye atılıyorsan, bir çıkış yolun olduğundan emin ol.",
+      "es": "Si te aventuras en el peligro, asegúrate de tener una salida."
+    }
+  },
+  {
+    "emojis": "🍽️➡️🍽️⬅️",
+    "answer": "Kandiro enda; kandiro dzoka",
+    "hints": {
+      "en": "One good turn deserves another.",
+      "haw": "ʻO hoʻokahi hana maikaʻi e hoʻi hou ʻia e kekahi.",
+      "tr": "Bir iyilik, başka bir iyiliği hak eder.",
+      "es": "Un favor merece otro a cambio."
+    }
+  },
+  {
+    "emojis": "🐂➡️🙅‍♂️🧣",
+    "answer": "Rina manyanga hariputirwi mumushunje",
+    "hints": {
+      "en": "Nothing can be hidden forever.",
+      "haw": "ʻAʻole hiki ke hūnā mau ʻia nā mea āpau.",
+      "tr": "Boynuzlu olan, otla gizlenemez.",
+      "es": "Nada puede permanecer oculto para siempre."
+    }
+  },
+  {
+    "emojis": "🥔🥣🥔🥣🥔🥣",
+    "answer": "Muto wetsenza ndiwo mumwe",
+    "hints": {
+      "en": "Variety is an illusion — soup made from tuber roots is always the same.",
+      "haw": "He hoʻokahi wale nō ka hupa i hana ʻia me nā aʻa.",
+      "tr": "Çeşitlilik bir yanılsamadır — köklerden yapılan çorba hep aynıdır.",
+      "es": "La variedad es una ilusión — la sopa de raíces siempre es la misma."
+    }
+  },
+  {
+    "emojis": "👣➡️👁️🙅‍♂️",
+    "answer": "Mutsa worutsoka kuperekedza ziso",
+    "hints": {
+      "en": "It is foolish to follow someone on an errand that does not benefit you.",
+      "haw": "He lapuwale ka hahai ʻana i kekahi hana ʻole he pono iā ʻoe.",
+      "tr": "Sana fayda sağlamayan bir işe birini takip etmek aptallıktır.",
+      "es": "Es una tontería acompañar a alguien en un encargo que no te beneficia."
+    }
+  },
+  {
+    "emojis": "🚶‍♂️🧼🌙❓",
+    "answer": "Natsa kwaunobva, kwaunoenda usiku",
+    "hints": {
+      "en": "Part ways on good terms; you may need others again as the future is uncertain.",
+      "haw": "E hoʻokaʻawale me ka maikaʻi, no ka mea, ʻaʻole ʻike i ka wā e hiki mai ana.",
+      "tr": "İyi ayrıl; gelecekte yine başkalarına ihtiyacın olabilir çünkü gelecek belirsizdir.",
+      "es": "Despídete en buenos términos; el futuro es incierto y podrías necesitar a otros."
+    }
+  }
+]

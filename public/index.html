@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmojiQuest</title>
+  <script defer src="/script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans min-h-screen flex flex-col items-center justify-center p-6">
+  <div class="max-w-xl w-full bg-gray-800 rounded-lg shadow-md p-6 text-center">
+    <h1 class="text-3xl font-bold mb-4">🎮 EmojiQuest</h1>
+
+    <label for="langSelect" class="block mb-2 text-sm font-medium">Choose your language</label>
+    <select id="langSelect" class="mb-4 px-4 py-2 rounded w-full text-black">
+      <option value="en">English</option>
+      <option value="sn">Shona</option>
+      <option value="haw">Hawaiian</option>
+    </select>
+
+    <div id="emojiDisplay" class="text-4xl mb-4">✨</div>
+
+    <div id="dashDisplay" class="mb-4 text-lg tracking-widest font-mono">- - -</div>
+
+    <input id="guessInput" type="text" class="w-full p-2 rounded mb-4 text-black" placeholder="Type your guess here...">
+    <button id="submitBtn" class="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded font-semibold mb-2">Submit</button>
+
+    <p id="result" class="mt-2 text-sm"></p>
+    <div class="mt-4">
+      <button id="hintBtn" class="text-sm text-blue-400 underline">Get Hint (3 left)</button>
+      <p id="hintBox" class="text-yellow-300 mt-2 whitespace-pre-line"></p>
+    </div>
+
+    <div class="mt-6 text-sm">
+      <span>Score: </span><span id="scoreDisplay">0</span> |
+      <span>Level: </span><span id="levelDisplay">1</span>
+    </div>
+  </div>
+</body>
+</html>
