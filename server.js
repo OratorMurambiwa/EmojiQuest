@@ -13,6 +13,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const allowedLangs = ['en', 'sn', 'haw']; // Supported languages
 
+// Track used puzzles per language to prevent repetition
+const usedPuzzles = {
+  en: new Set(),
+  sn: new Set(),
+  haw: new Set()
+};
+
 // 🎯 API: Get a random puzzle
 app.get('/api/puzzle', (req, res) => {
   const lang = req.query.lang || 'en';
@@ -41,13 +48,61 @@ app.get('/api/puzzle', (req, res) => {
       return res.status(404).json({ error: 'No puzzles found for this language.' });
     }
 
-    const randomIndex = Math.floor(Math.random() * puzzles.length);
-    const puzzle = puzzles[randomIndex];
+    // Check if all puzzles have been used
+    if (usedPuzzles[lang].size >= puzzles.length) {
+      return res.json({ 
+        gameComplete: true, 
+        message: "🎉 Congratulations! You've completed all puzzles in this language!",
+        totalPuzzles: puzzles.length,
+        completedPuzzles: usedPuzzles[lang].size
+      });
+    }
 
-    console.log(`[INFO] Served a puzzle from '${lang}'`);
+    // Get available puzzles (not yet used)
+    const availablePuzzles = puzzles.filter((_, index) => !usedPuzzles[lang].has(index));
+    
+    if (availablePuzzles.length === 0) {
+      return res.json({ 
+        gameComplete: true, 
+        message: "🎉 Congratulations! You've completed all puzzles in this language!",
+        totalPuzzles: puzzles.length,
+        completedPuzzles: usedPuzzles[lang].size
+      });
+    }
 
-    res.json(puzzle);
+    // Select a random puzzle from available ones
+    const randomIndex = Math.floor(Math.random() * availablePuzzles.length);
+    const puzzle = availablePuzzles[randomIndex];
+    
+    // Find the original index in the full array
+    const originalIndex = puzzles.findIndex(p => p.emojis === puzzle.emojis && p.answer === puzzle.answer);
+    
+    // Mark this puzzle as used
+    usedPuzzles[lang].add(originalIndex);
+
+    console.log(`[INFO] Served puzzle ${originalIndex + 1}/${puzzles.length} from '${lang}'`);
+
+    res.json({
+      ...puzzle,
+      puzzleNumber: originalIndex + 1,
+      totalPuzzles: puzzles.length,
+      remainingPuzzles: puzzles.length - usedPuzzles[lang].size
+    });
   });
+});
+
+// 🔄 API: Reset game progress
+app.post('/api/reset', (req, res) => {
+  const lang = req.query.lang || 'en';
+  
+  if (!allowedLangs.includes(lang)) {
+    return res.status(400).json({ error: 'Unsupported language' });
+  }
+  
+  usedPuzzles[lang].clear();
+  console.log(`[INFO] Reset game progress for '${lang}'`);
+  
+  res.json({ message: 'Game progress reset successfully' });
 });
 
 // 🏠 Homepage (optional override)

@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,35 +5,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EmojiQuest</title>
   <script defer src="/script.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-900 text-white font-sans min-h-screen flex flex-col items-center justify-center p-6">
-  <div class="max-w-xl w-full bg-gray-800 rounded-lg shadow-md p-6 text-center">
-    <h1 class="text-3xl font-bold mb-4">🎮 EmojiQuest</h1>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">
+        EmojiQuest
+      </h1>
+      <p class="subtitle">Guess the proverb from the emojis</p>
+    </header>
 
-    <label for="langSelect" class="block mb-2 text-sm font-medium">Choose your language</label>
-    <select id="langSelect" class="mb-4 px-4 py-2 rounded w-full text-black">
-      <option value="en">English</option>
-      <option value="sn">Shona</option>
-      <option value="haw">Hawaiian</option>
-    </select>
+    <div class="game-container">
+      <div class="language-selector">
+        <div class="language-row">
+          <div class="language-group">
+            <label for="baseLangSelect" class="label">Base Language</label>
+            <select id="baseLangSelect" class="select">
+              <option value="en">🇺🇸 English</option>
+              <option value="sn">🇿🇼 Shona</option>
+              <option value="haw">🇺🇸 Hawaiian</option>
+            </select>
+          </div>
+          <div class="language-group">
+            <label for="langSelect" class="label">Puzzle Language</label>
+            <select id="langSelect" class="select">
+              <option value="en">🇺🇸 English</option>
+              <option value="sn">🇿🇼 Shona</option>
+              <option value="haw">🇺🇸 Hawaiian</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
-    <div id="emojiDisplay" class="text-4xl mb-4">✨</div>
+      <div class="puzzle-area">
+        <div id="emojiDisplay" class="emoji-display">✨</div>
+        <div id="dashDisplay" class="dash-display">- - -</div>
+      </div>
 
-    <div id="dashDisplay" class="mb-4 text-lg tracking-widest font-mono">- - -</div>
+      <div class="input-section">
+        <input id="guessInput" type="text" class="guess-input" placeholder="Type your guess here...">
+          <div class="action-buttons">
+            <button id="prevBtn" class="prev-btn">
+              <span>Previous</span>
+              <span class="btn-emoji">⏮️</span>
+            </button>
+            <button id="submitBtn" class="submit-btn">
+              <span>Submit</span>
+              <span class="btn-emoji">🚀</span>
+            </button>
+            <button id="nextBtn" class="next-btn">
+              <span>Next</span>
+              <span class="btn-emoji">⏭️</span>
+            </button>
+          </div>
+      </div>
 
-    <input id="guessInput" type="text" class="w-full p-2 rounded mb-4 text-black" placeholder="Type your guess here...">
-    <button id="submitBtn" class="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded font-semibold mb-2">Submit</button>
+      <div id="result" class="result"></div>
 
-    <p id="result" class="mt-2 text-sm"></p>
-    <div class="mt-4">
-      <button id="hintBtn" class="text-sm text-blue-400 underline">Get Hint (3 left)</button>
-      <p id="hintBox" class="text-yellow-300 mt-2 whitespace-pre-line"></p>
-    </div>
+      <div class="hint-section">
+        <div class="hint-buttons">
+          <button id="wordHintBtn" class="hint-btn word-hint-btn">
+            <span>🔤 Word Hint</span>
+            <span class="hint-count">(3 left)</span>
+          </button>
+          <button id="meaningBtn" class="hint-btn meaning-btn">
+            <span>💡 Meaning</span>
+            <span class="hint-count">(3 left)</span>
+          </button>
+          <button id="showAnswerBtn" class="hint-btn show-answer-btn">
+            <span>👁️ Show Answer</span>
+          </button>
+        </div>
+        <div id="hintBox" class="hint-box"></div>
+      </div>
 
-    <div class="mt-6 text-sm">
-      <span>Score: </span><span id="scoreDisplay">0</span> |
-      <span>Level: </span><span id="levelDisplay">1</span>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-label">Score</span>
+          <span id="scoreDisplay" class="stat-value">0</span>
+        </div>
+      </div>
     </div>
   </div>
 </body>

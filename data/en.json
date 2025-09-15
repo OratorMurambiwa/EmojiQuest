@@ -1,6 +1,6 @@
 [
   {
-    "emojis": "🌞➡️🌾⚒️",
+    "emojis": "☀️➡️🌾⚒️",
     "answer": "Make hay while the sun shines",
     "hints": {
       "en": "Take advantage of good opportunities while they last.",
@@ -23,7 +23,7 @@
     "emojis": "🐕😴🚫👋",
     "answer": "Let sleeping dogs lie",
     "hints": {
-      "en": "Don’t stir up old troubles.",
+      "en": "Don't stir up old troubles.",
       "sn": "Usamutsire nyaya dzakapera.",
       "tr": "Uyuyan köpeği uyandırma.",
       "es": "Deja que los perros dormidos descansen."
@@ -41,9 +41,9 @@
   },
   {
     "emojis": "🥚➡️🐣➡️🐔🚫🔢",
-    "answer": "Don’t count your chickens before they hatch",
+    "answer": "Don't count your chickens before they hatch",
     "hints": {
-      "en": "Don’t make plans based on assumptions.",
+      "en": "Don't make plans based on assumptions.",
       "sn": "Usavimba nezvisati zvaitika.",
       "tr": "Civcivler çıkmadan tavukları sayma.",
       "es": "No cuentes los pollos antes de nacer."
@@ -71,9 +71,9 @@
   },
   {
     "emojis": "🏠🪞🚫🪨",
-    "answer": "People who live in glass houses shouldn’t throw stones",
+    "answer": "People who live in glass houses shouldn't throw stones",
     "hints": {
-      "en": "Don’t criticize others if you have similar faults.",
+      "en": "Don't criticize others if you have similar faults.",
       "sn": "Usatuke vamwe kana uinewo mhosva.",
       "tr": "Camdan evde oturan, taş atmamalı.",
       "es": "Quien tiene techo de vidrio no debe tirar piedras."
